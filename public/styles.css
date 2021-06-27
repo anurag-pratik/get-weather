@@ -1,0 +1,156 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
+  background-color: #111111;
+  background-image: url("https://www.transparenttextures.com/patterns/real-carbon-fibre.png");
+}
+
+.navbar {
+  background-color: #020202 !important;
+}
+
+.container {
+  padding: 12vh 2%;
+}
+
+.top-bar {
+  min-height: 10vh;
+  color: #ffac41;
+  width: 100%;
+  text-align: center;
+  -webkit-box-shadow: 0 10px 10px -10px #ffac41;
+  -moz-box-shadow: 0 10px 10px -10px #ffac41;
+  box-shadow: 0 10px 10px -10px #ffac41;
+}
+
+h1 {
+  padding-top: 1vh;
+  font-family: 'Cookie', cursive;
+  font-size: 3rem;
+}
+
+
+.container-fluid{
+  align-items: center;
+  background-color: #020202 !important;
+  width: 70%;
+  margin-top: 12vh;
+  padding: 8vh 8%;
+  max-width: 700px;
+}
+
+.input-area{
+  text-align: center;
+  height: 45px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  background-color: #242424;
+  color: rgb(211, 211, 211);
+  width: 95%;
+  max-width: 300px;
+}
+
+.input-area:focus{
+  background-color: #2c2c2c;
+  color: rgb(211, 211, 211);
+}
+
+.btn{
+  margin: 4vh 0;
+}
+
+.raing{
+  margin-top: 2vh;
+  height: 20vh;
+}
+
+h3{
+  margin-top: 2vh;
+  font-size: 1.2rem;
+  color: rgb(211, 211, 211);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer {
+  background-color: #020202 !important;
+  height: 5.2vh;
+  text-align: center;
+  vertical-align: middle;
+  position: fixed;
+  width: 60%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  margin: 0 auto;
+  bottom: 0;
+  color: #ffac41;
+  max-width: 250px;
+}
+
+.footer-text {
+  padding-top: 1vh;
+  font-size: 0.8rem;
+}
+
+a {
+  color: #ffac41;
+}
+
+a:hover {
+  color: rgb(238, 238, 238);
+}
+
+
+.fade-in {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
